@@ -14,10 +14,10 @@ you on yo own with this one :sob::pray:
 
 ## Credits
 
-virgins1337 (644151743546130433) - Making this client. 
-lvstrng - deobfuscation.
-ablue - remapping and making it buildable.
-? - jar (this dumbo leaked his jar in ratscanner)
+virgins1337 (644151743546130433) - Making this client. <br>
+lvstrng - deobfuscation.<br>
+ablue - remapping and making it buildable.<br>
+? - jar (this dumbo leaked his jar in ratscanner)<br>
 
 ## HALL OF STUPIDNESS
 
