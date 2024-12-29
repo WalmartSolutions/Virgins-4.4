@@ -37,10 +37,10 @@ ablue - remapping and making it buildable.<br>
 ![image](https://github.com/user-attachments/assets/3e9152b3-23c3-4fbd-b219-9abf920c3354)
 ![image](https://github.com/user-attachments/assets/e44be45e-7bbc-4ddb-b059-d7c9987c0fed)
 
-Running DeadCodeCleanTransformer transformer
-Made 8735 changes
-Ended DeadCodeCleanTransformer transformer in 409 ms
+<h3> Running DeadCodeCleanTransformer transformer </h3>
+<h3> Made 8735 changes </h3>
+<h3> Ended DeadCodeCleanTransformer transformer in 409 ms </h3>
 
-Running LocalVariableNamesCleanTransformer transformer
-Made 1328 changes
-Ended LocalVariableNamesCleanTransformer transformer in 1 ms
+<h3>Running LocalVariableNamesCleanTransformer transformer </h3>
+<h3>Made 1328 changes </h3>
+<h3>Ended LocalVariableNamesCleanTransformer transformer in 1 ms </h3>
