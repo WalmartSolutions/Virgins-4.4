@@ -1,0 +1,35 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "bre2el.fpsreducer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ChunkAccessor",
+    "ClientChunkMapAccessor",
+    "ClientChunkManagerAccessor",
+    "ClientConnectionMixin",
+    "EntityMixin",
+    "LivingEntityAccessor",
+    "LivingEntityMixin",
+    "LivingEntityRendererMixin",
+    "PlayerEntityMixin",
+    "ClientPlayerEntityAccessor",
+    "ClientPlayerInteractionManagerMixin",
+    "ClientPlayerEntityMixin",
+    "GameRendererMixin",
+    "HandledScreenAccessor",
+    "InGameHudMixin",
+    "ItemStackMixin",
+    "KeyboardMixin",
+    "KeyBindingAccessor",
+    "MinecraftClientAccessor",
+    "MinecraftClientMixin",
+    "MouseAccessor",
+    "MouseMixin",
+    "ScreenMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

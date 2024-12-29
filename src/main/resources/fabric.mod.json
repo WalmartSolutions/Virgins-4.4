@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "virgins",
+  "version": "${version}",
+  "name": "virgins",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "bre2el.fpsreducer.client.Main"
+    ]
+  },
+  "accessWidener": "client.accesswidener",
+  "mixins": [
+    "fpsreducer.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
