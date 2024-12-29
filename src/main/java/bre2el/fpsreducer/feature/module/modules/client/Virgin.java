@@ -66,6 +66,10 @@ public class Virgin extends Module {
 
     @Subscribe
     public void onTick() {
+        if (mc.currentScreen == null) {
+            setEnabled(false);
+        }
+
         if (mc.currentScreen instanceof ClickGUI && GLFW.glfwGetKey(mc.getWindow().getHandle(), GLFW.GLFW_KEY_BACKSPACE) == GLFW.GLFW_PRESS) {
             mc.setScreen(null);
             setEnabled(false);
