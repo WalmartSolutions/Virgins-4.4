@@ -56,7 +56,19 @@ public class ItemESP extends Module {
         this.addSettings(new Setting[]{this.bind});
     }
 
-    public static int[] SwitchMapRarity = new int[Rarity.values().length];
+    public static int[] SwitchMapRarity;
+
+    static {
+        SwitchMapRarity = new int[Rarity.values().length];
+        try {
+            SwitchMapRarity[Rarity.COMMON.ordinal()] = 1;
+            SwitchMapRarity[Rarity.UNCOMMON.ordinal()] = 2;
+            SwitchMapRarity[Rarity.RARE.ordinal()] = 3;
+            SwitchMapRarity[Rarity.EPIC.ordinal()] = 4;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
     // $VF: Unable to simplify switch on enum
     // Please report this to the Vineflower issue tracker, at https://github.com/Vineflower/vineflower/issues with a copy of the class file (if you have the rights to distribute it!)
