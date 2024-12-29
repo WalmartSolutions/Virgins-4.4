@@ -643,8 +643,8 @@ public class RenderUtil {
         public RenderHelper(final RenderUtil wtf) { // decompiler moment XD  -ablue
         }
 
-        public static void setMatrixStack(MatrixStack matrixStack) {
-            matrixStack = matrixStack;
+        public static void setMatrixStack(MatrixStack newStack) {
+            matrixStack = newStack;
         }
 
         public static void setContext(DrawContext context) {
