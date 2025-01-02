@@ -30,47 +30,54 @@ public class ModuleManager {
     }
 
     void addModules() {
-        // CLIENT
-        addModule(new Virgin());
-        addModule(new SelfDestruct());
+        //Combat
+        this.modules.add(new AimAssist());
+        this.modules.add(new AnchorMacro());
+        this.modules.add(new AutoBlock());
+        this.modules.add(new AutoDoubleHand());
+        this.modules.add(new AutoHitCrystal());
+        this.modules.add(new AutoInventoryTotem());
+        this.modules.add(new Backtrack());
+        this.modules.add(new CrystalClicker());
+        this.modules.add(new JumpReset());
+        this.modules.add(new Reach());
+        this.modules.add(new ShieldDisabler());
+        this.modules.add(new SideKnockback());
+        this.modules.add(new SilentAim());
+        this.modules.add(new TotemHit());
+        this.modules.add(new TriggerBot());
+        this.modules.add(new WTap());
 
-        // COMBAT
-        addModule(new AimAssist());
-        addModule(new AnchorMacro());
-        addModule(new AutoBlock());
-        addModule(new AutoDoubleHand());
-        addModule(new AutoHitCrystal());
-        addModule(new AutoInventoryTotem());
-        addModule(new Backtrack());
-        addModule(new CrystalClicker());
-        addModule(new JumpReset());
-        addModule(new Reach());
-        addModule(new ShieldDisabler());
-        addModule(new SideKnockback());
-        addModule(new SilentAim());
-        addModule(new TotemHit());
-        addModule(new TriggerBot());
-        addModule(new WTap());
+        //Render
+        this.modules.add(new BlockESP());
+        this.modules.add(new HUD());
+        this.modules.add(new ItemESP());
+        this.modules.add(new NoInvis());
+        this.modules.add(new PlayerESP());
+        this.modules.add(new StorageESP());
+        this.modules.add(new Tracers());
 
-        // UTILITY
-        addModule(new AntiBot());
-        addModule(new BackPlace());
-        addModule(new Friends());
-        addModule(new NoDelay());
-        addModule(new Teams());
+        //Movement
+        this.modules.add(new BridgeAssist());
+        this.modules.add(new FakeLag());
+        this.modules.add(new Sprint());
 
-        // MOVEMENT
-        addModule(new BridgeAssist());
-        addModule(new FakeLag());
-        addModule(new Sprint());
+        //Utility
+        this.modules.add(new AntiAction());
+        this.modules.add(new AntiBot());
+        this.modules.add(new AutoLoot());
+        this.modules.add(new BackPlace());
+        this.modules.add(new ElytraSwap());
+        this.modules.add(new FastPlace());
+        this.modules.add(new Friends());
+        this.modules.add(new Macro());
+        this.modules.add(new NoDelay());
+        this.modules.add(new Refill());
+        this.modules.add(new Teams());
 
-        // VISUAL
-        addModule(new HUD());
-        addModule(new BlockESP());
-        addModule(new ItemESP());
-        addModule(new PlayerESP());
-        addModule(new StorageESP());
-        addModule(new Tracers());
+        //Client
+        this.modules.add(new SelfDestruct());
+        this.modules.add(new Virgin());
     }
 
     void addModule(Module module) {
